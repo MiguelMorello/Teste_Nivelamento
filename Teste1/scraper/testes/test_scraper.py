@@ -42,7 +42,6 @@ class TestScraper(unittest.TestCase):
         
         pdf_links = find_pdf_links('https://www.gov.br/ans/pt-br/acesso-a-informacao/participacao-da-sociedade/atualizacao-do-rol-de-procedimentos')
 
-        # Verifica se os links "Anexo I" e "Anexo II" foram encontrados
         self.assertEqual(len(pdf_links), 2)
         self.assertIn('Anexo_I.pdf', pdf_links)
         self.assertIn('Anexo_II.pdf', pdf_links)

@@ -1,5 +1,3 @@
--- setupdb.sql (Criação das Tabelas)
-
 CREATE TABLE operadoras (
     id_operadora SERIAL PRIMARY KEY,
     registro_ans VARCHAR(20) UNIQUE NOT NULL,
@@ -24,7 +22,6 @@ CREATE TABLE operadoras (
     data_registro_ans DATE
 );
 
--- Tabelas para 2024
 CREATE TABLE demonstracoes_contabeis_2024_Q1 (
     id SERIAL PRIMARY KEY,
     data DATE NOT NULL,
@@ -69,7 +66,7 @@ CREATE TABLE demonstracoes_contabeis_2024_Q4 (
     g NUMERIC(18,2)
 );
 
--- Tabelas para 2023
+
 CREATE TABLE demonstracoes_contabeis_2023_Q1 (
     id SERIAL PRIMARY KEY,
     data DATE NOT NULL,

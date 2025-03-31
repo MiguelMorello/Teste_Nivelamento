@@ -46,7 +46,7 @@ export default {
           }
         });
 
-        this.operadora = response.data;  // A resposta da API
+        this.operadora = response.data; 
       } catch (error) {
         if (error.response) {
           this.erro = error.response.data.erro || "Erro desconhecido";
@@ -60,7 +60,6 @@ export default {
 </script>
 
 <style scoped>
-/* Estilo global */
 * {
   margin: 0;
   padding: 0;

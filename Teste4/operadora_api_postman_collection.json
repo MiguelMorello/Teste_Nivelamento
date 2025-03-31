@@ -1,0 +1,239 @@
+{
+    "info": {
+        "_postman_id": "f4603022-e6a0-4a50-8ecf-617a70fa2997",
+        "name": "API de Operadora",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Buscar Operadora por ANS",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "419761"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (1)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "421545"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (2)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "421421"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (3)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "422908"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (4)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "418030"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (5)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "314668"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (6)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "419621"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (7)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "424242"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (8)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "418901"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        },
+        {
+            "name": "Buscar Operadora por ANS (9)",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:5000/buscar_operadora?registro_ans={{registro_ans}}",
+                    "host": [
+                        "http://localhost:5000"
+                    ],
+                    "path": [
+                        "buscar_operadora"
+                    ],
+                    "query": [
+                        {
+                            "key": "registro_ans",
+                            "value": "421553"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ]
+}
